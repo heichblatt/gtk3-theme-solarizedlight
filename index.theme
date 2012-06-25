@@ -1,6 +1,6 @@
 [X-GNOME-Metatheme]
-Name=<yourawesometheme>
-Comment=<Your Awesome Theme>
+Name=SolarizedLight
+Comment=Light version of the Solarized theme
 
 Type=X-GNOME-Metatheme
 Encoding=UTF-8
