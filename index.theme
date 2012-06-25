@@ -4,8 +4,8 @@ Comment=Light version of the Solarized theme
 
 Type=X-GNOME-Metatheme
 Encoding=UTF-8
-#GtkTheme=<yourawesometheme>
-#MetacityTheme=<yourawesometheme>
-#IconTheme=<name_of_icon_theme>
-#CursorTheme=<name_of_cursor_theme>
-#CursorSize=<24>
+GtkTheme=SolarizedLight
+MetacityTheme=SolarizedLight
+IconTheme=gnome
+CursorTheme=gnome
+CursorSize=<24>
