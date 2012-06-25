@@ -1,0 +1,6 @@
+/* Match any row in a GtkTreeView. */
+/*GtkTreeView row { ... } */
+
+/* Match even/odd numbered rows in a GtkTreeView. */
+/*GtkTreeView row:nth-child (even) { ... } */
+/*GtkTreeView row:nth-child (odd) { ... } */

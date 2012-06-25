@@ -1,0 +1,11 @@
+[X-GNOME-Metatheme]
+Name=<yourawesometheme>
+Comment=<Your Awesome Theme>
+
+Type=X-GNOME-Metatheme
+Encoding=UTF-8
+#GtkTheme=<yourawesometheme>
+#MetacityTheme=<yourawesometheme>
+#IconTheme=<name_of_icon_theme>
+#CursorTheme=<name_of_cursor_theme>
+#CursorSize=<24>

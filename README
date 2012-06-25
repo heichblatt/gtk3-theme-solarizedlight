@@ -1,0 +1,50 @@
+* Introduction *
+
+This package contains a gtk 3 theme template.
+I am not a themer, so if something is wrong, let me know!
+I made this since gtk 3 is quite new, and theming is not easy.
+This might make it easier for some people.
+
+Everything in the template path is public domain.
+The rest is GPL3 licensed.
+
+
+* Using the template *
+
+1. Copy the template directory to ~/.themes/ and rename it to your theme name.
+2. Edit the template to your liking.
+3. Share your theme (for example at www.gnome-look.org).
+
+
+* Contact and contributing *
+
+You can either email me at pustjens@dds.nl, or use the comments section on
+www.gnome-look.org (probably where you downloaded the template).
+
+Help me improve the template and share your experiences.
+Perhaps you can provide small examples of not-so-common theming tricks?
+Even examples of common theming which is not in the template will help
+others. Also consider submitting application specific theming examples.
+
+You are also welcome to setup a webpage for this (git+tracker+ml+forum perhaps?)
+
+
+* Generating the template *
+
+In order to generate the template using the `gtk-theme-template.py' script
+yourself, first get a (recent) copy of the gtk 3 sources. Also install
+gtk-doc (http://www.gtk.org/gtk-doc/). gtk-doc contains the tools to generate
+the documentation during a build of gtk 3. Apply the patch
+`gtk3-docs-xhtml.patch' to `/usr/share/gtk-doc/data/gtk-doc.xsl'. This
+modifies the tools to generate xhtml instead of old-fashioned html. (its easy
+to parse xhtml using python).
+
+The next step is to build gtk 3. Do the following:
+$ ./configure --enable-gtk-doc --enable-gtk-doc-html
+$ make
+
+If successful, this will leave the generated documentation in
+`gtk+-3.x.x/docs/reference/gtk/html'.
+
+Open the `gtk-theme-template.py' script and change the `htmlPathName'
+variable to the path where your copy of the documentation is.

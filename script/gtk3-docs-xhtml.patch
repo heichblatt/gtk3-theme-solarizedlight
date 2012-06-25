@@ -1,0 +1,17 @@
+diff --git a/gtk-doc.xsl b/gtk-doc.xsl
+index 5eddb4f..e01bb6e 100644
+--- a/gtk-doc.xsl
++++ b/gtk-doc.xsl
+@@ -23,9 +23,11 @@
+     reference toc
+   </xsl:param>
+ 
++  <xsl:param name="chunker.output.method" select="'xml'"/>
+   <xsl:param name="chunker.output.encoding" select="'UTF-8'"/>
+   <xsl:param name="chunker.output.indent" select="'yes'"/>
+-  <xsl:param name="chunker.output.doctype-public" select="'-//W3C//DTD HTML 4.01 Transitional//EN'"/>
++  <xsl:param name="chunker.output.doctype-public" select="'-//W3C//DTD XHTML 1.0 Strict//EN'"/>
++  <xsl:param name="chunker.output.doctype-system" select="'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'"/>
+   <xsl:param name="chunk.fast" select="1"/>
+ 
+   <xsl:param name="default.encoding" select="'UTF-8'"/>

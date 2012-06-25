@@ -1,0 +1,10 @@
+/* Match the first notebook tab. */
+/*GtkNotebook tab:first-child { ... } */
+/*GtkNotebook tab:nth-child(first) { ... } */
+
+/* Match the last notebook tab. */
+/*GtkNotebook tab:last-child { ... } */
+/*GtkNotebook tab:nth-child(last) { ... } */
+
+/* Match the labels in notebook tabs. */
+/*GtkNotebook tab GtkLabel { ... } */
